@@ -1,5 +1,2 @@
 .vscode
 noma/
-*.csv
-*.joblib
-*.pkl
