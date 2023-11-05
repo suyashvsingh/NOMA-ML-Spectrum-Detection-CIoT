@@ -1,4 +1,4 @@
-# Spectrum Sensing in NOMA Systems using Machine Learning
+# Feature-Based Spectrum Sensing of NOMA System for Cognitive IoT Networks using Optimal Machine Learning Classifiers
 
 This project focuses on the Rayleigh fading channels, specifically for Non-Orthogonal Multiple Access (NOMA) users. Through the use of Monte Carlo simulations, the project analyzes signal detection under varying environmental Signal-to-Noise Ratios (SNRs). Additionally, Machine Learning algorithms are applied to enhance signal detection performance.
 
