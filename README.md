@@ -58,6 +58,11 @@ The final step involves plotting the Probability of Detection against the Enviro
 
 Upon successful execution, a graph titled "Probability of Detection vs. Environmental SNR" will be produced. This graph provides a comparative analysis between the traditional method of signal detection and the three Machine Learning algorithms: Logistic Regression (LR), Random Forest (RF), and Decision Tree (DT). The analysis focuses on the True Positive Rate (TPR) at a Fixed False Positive Rate (FPR) of 0.1.
 
+<p align="center">
+  <img src="images/snr.png">
+  <img src="images/throughput.png">
+</p>
+
 ## Contributions
 
 Contributions to the project are welcomed. Potential areas of contribution include:
