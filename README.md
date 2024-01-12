@@ -1,76 +1,76 @@
-# Feature-Based Spectrum Sensing of NOMA System for Cognitive IoT Networks using Optimal Machine Learning Classifiers
+# 🌐 Feature-Based Spectrum Sensing in NOMA for Cognitive IoT Networks with Optimal ML Classifiers
 
-This project focuses on the Rayleigh fading channels, specifically for Non-Orthogonal Multiple Access (NOMA) users. Through the use of Monte Carlo simulations, the project analyzes signal detection under varying environmental Signal-to-Noise Ratios (SNRs). Additionally, Machine Learning algorithms are applied to enhance signal detection performance.
+This project dives into Rayleigh fading channels for Non-Orthogonal Multiple Access (NOMA) users. 📡 Leveraging Monte Carlo simulations, it explores signal detection across different Signal-to-Noise Ratios (SNRs). 📊 Plus, we harness the power of Machine Learning to boost signal detection capabilities.
 
-## Libraries and Dependencies
+## 📚 Libraries and Dependencies
 
-- **numpy**: For numerical operations.
-- **pandas**: Data handling and manipulation.
-- **matplotlib**: Visualization and plotting.
-- **scipy**: Scientific computing, used here for interpolation.
-- **scikit-learn**: Machine Learning library used for training classifiers and performance evaluation.
+- **numpy**: For number crunching 🔢.
+- **pandas**: Expert at data handling and manipulation 📈.
+- **matplotlib**: Our go-to for stunning visualizations and plots 📊.
+- **scipy**: A powerhouse for scientific computing, essential for interpolation 🔬.
+- **scikit-learn**: The brain behind our Machine Learning models 🤖.
 
-## Constants and Parameters
+## 🔢 Constants and Parameters
 
-- **Number of Monte Carlo iterations**: `num_iter = 10000`
-- **Number of NOMA users**: `N = 2`
+- **Monte Carlo iterations**: `num_iter = 10000`
+- **NOMA users**: `N = 2`
 - **Power allocations**: `a1, a2 = 0.8, 0.2`
 - **Sampled length**: `S = 4096`
 - **False-alarm probability**: `Pf = 0.1`
-- **Environmental SNR values**: From -25dB to 5dB.
+- **Environmental SNR range**: -25dB to 5dB 🔉.
 - **Transmitter power**: `transmitter_power = 1`
 
-## Data Generation and Signal Detection
+## 📡 Data Generation & Signal Detection
 
-The Monte Carlo simulation is used to:
+Utilizing Monte Carlo simulation, we:
 
-1. Generate NOMA signals with random cyclic delays.
-2. Combine signals to produce transmitted signals.
-3. Add Rayleigh distributed complex normal noise.
-4. Determine if NOMA signals are present using cyclic correlation.
+1. Craft NOMA signals with random cyclic delays 🔄.
+2. Merge these to form our transmitted signal 📶.
+3. Stir in Rayleigh distributed noise for realism 🌪️.
+4. Detect NOMA signals with cyclic correlation 🔍.
 
-## Machine Learning
+## 🤖 Machine Learning Insights
 
-Three ML algorithms are trained using the generated data:
+We train three ML champions:
 
 - Logistic Regression (LR)
 - Random Forest (RF)
 - Decision Tree (DT)
 
-Each algorithm is trained to differentiate between signals with and without the presence of NOMA signals. Their performance is then evaluated using the Receiver Operating Characteristic (ROC) curve, specifically focusing on the True Positive Rate (TPR) at a False Positive Rate (FPR) of 0.1.
+They're on a mission to spot NOMA signals. We assess their prowess using the ROC curve, eyeing the True Positive Rate (TPR) against a False Positive Rate (FPR) of 0.1.
 
-## Visualization
+## 📊 Visual Mastery
 
-The final step involves plotting the Probability of Detection against the Environmental SNR. This plot compares:
+We plot Detection Probability vs. Environmental SNR, showcasing:
 
-- Traditional signal detection method (Without ML)
-- Logistic Regression (LR)
-- Random Forest (RF)
-- Decision Tree (DT)
+- Classic signal detection (sans ML) 🚦
+- Logistic Regression (LR) 📈
+- Random Forest (RF) 🌳
+- Decision Tree (DT) 🌲
 
-## How to Run
+## 🚀 Running the Show
 
-1. Ensure you have all the necessary libraries installed.
-2. Clone the repository to your local machine.
-3. Run the notebook to generate the final plot comparing traditional signal detection with ML-enhanced methods under varying environmental SNRs.
+1. Gear up with all the required libraries 💻.
+2. Clone our repository 📁.
+3. Fire up the notebook for an epic plot showdown: traditional vs ML-augmented detection under varied SNRs 📉.
 
-## Results
+## 📈 The Results
 
-Upon successful execution, a graph titled "Probability of Detection vs. Environmental SNR" will be produced. This graph provides a comparative analysis between the traditional method of signal detection and the three Machine Learning algorithms: Logistic Regression (LR), Random Forest (RF), and Decision Tree (DT). The analysis focuses on the True Positive Rate (TPR) at a Fixed False Positive Rate (FPR) of 0.1.
+A stunning graph, "Probability of Detection vs. Environmental SNR," awaits you. It pits traditional detection against our ML trio: LR, RF, and DT, focusing on TPR at a steady FPR of 0.1.
 
 <p align="center">
   <img src="images/snr.png">
   <img src="images/throughput.png">
 </p>
 
-## Contributions
+## 🤝 Join the Mission
 
-Contributions to the project are welcomed. Potential areas of contribution include:
+Jump in to:
 
-- Optimizing the Monte Carlo simulation.
-- Introducing more sophisticated machine learning algorithms.
-- Enhancing visualization techniques.
+- Turbocharge the Monte Carlo simulation ⚙️.
+- Bring in cutting-edge ML algorithms 🧠.
+- Elevate our visualization game 🎨.
 
 ---
 
-**Note**: For a comprehensive understanding and detailed analysis, dive into the notebook.
+**Note**: For the full story and deep insights, explore the notebook 📘.
