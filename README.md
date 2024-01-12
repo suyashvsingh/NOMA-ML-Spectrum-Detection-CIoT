@@ -22,7 +22,7 @@ This project dives into Rayleigh fading channels for Non-Orthogonal Multiple Acc
 
 ## 📡 Data Generation & Signal Detection
 
-Utilizing Monte Carlo simulation, we:
+Utilizing the Monte Carlo simulation, we:
 
 1. Craft NOMA signals with random cyclic delays 🔄.
 2. Merge these to form our transmitted signal 📶.
@@ -50,13 +50,13 @@ We plot Detection Probability vs. Environmental SNR, showcasing:
 
 ## 🚀 Running the Show
 
-1. Gear up with all the required libraries 💻.
-2. Clone our repository 📁.
+1. Clone our repository using `git clone https://github.com/suyashvsingh/NOMA-ML-Spectrum-Detection-CIoT.git` 📂.
+2. Install the dependencies using `pip install -r requirements.txt` 📦.
 3. Fire up the notebook for an epic plot showdown: traditional vs ML-augmented detection under varied SNRs 📉.
 
 ## 📈 The Results
 
-A stunning graph, "Probability of Detection vs. Environmental SNR," awaits you. It pits traditional detection against our ML trio: LR, RF, and DT, focusing on TPR at a steady FPR of 0.1.
+A stunning graph, "Probability of Detection vs. Environmental SNR," awaits you. It pits traditional detection against our ML trio, LR, RF, and DT, focusing on TPR at a steady FPR of 0.1.
 
 <p align="center">
   <img src="images/snr.png">
@@ -65,7 +65,7 @@ A stunning graph, "Probability of Detection vs. Environmental SNR," awaits you. 
 
 ## 🤝 Join the Mission
 
-Jump in to:
+Jump into:
 
 - Turbocharge the Monte Carlo simulation ⚙️.
 - Bring in cutting-edge ML algorithms 🧠.
@@ -73,4 +73,4 @@ Jump in to:
 
 ---
 
-**Note**: For the full story and deep insights, explore the notebook 📘.
+**Note**: For the whole story and deep insights, explore the notebook 📘.
